@@ -1,16 +1,17 @@
 {
   "name": "Localizador de CC",
   "short_name": "Localizador CC",
-  "description": "Aplicación PWA para localizar CC y ubicaciones sobre planos.",
-  "id": "localizador-cc-v13",
-  "start_url": "./index.html",
+  "description": "Aplicación para localizar centros de cableado y otras ubicaciones sobre planos.",
+  "id": "./",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#f5f7fb",
+  "background_color": "#071428",
   "theme_color": "#071428",
+  "lang": "es-ES",
   "icons": [
-    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
-    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+    {"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
   ]
 }
