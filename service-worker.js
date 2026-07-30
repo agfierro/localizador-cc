@@ -1,10 +1,10 @@
-const CACHE = 'localizador-cc-v14';
+const CACHE = 'localizador-cc-v15';
 const ASSETS = [
   './', './index.html', './manifest.json', './favicon.ico',
   './favicon-16.png', './favicon-32.png', './apple-touch-icon.png',
   './icon-192.png', './icon-512.png',
   './plano_campa.png', './P0.png', './P1.png', './P2.png',
-  './P4.png', './P8.png', './NA.png'
+  './P4.png', './P8.png', './NA.png', './Telefonos_Galerias.png'
 ];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
